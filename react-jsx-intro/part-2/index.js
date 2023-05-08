@@ -1,6 +1,6 @@
 const Tweet = ({ username, name, date, message }) => {
   return (
-    <div>
+    <div class="card">
       <h2>
         {username} <small>aka. {name}</small>
       </h2>
